@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Home from './component/home';
+import Quiz from './component/quizpage';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           Learn React
         </a>
         <Home/>
+        <Quiz/>
       </header>
     </div>
   );
